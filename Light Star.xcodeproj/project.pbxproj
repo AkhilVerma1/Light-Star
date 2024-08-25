@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		465BF99B2C7B9E51000BBCA1 /* Watch Light Star Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 465BF9782C7B9E4F000BBCA1 /* Watch Light Star Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		465BF94A2C7B9A90000BBCA1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,17 +25,72 @@
 			remoteGlobalIDString = 465BF9382C7B9A8E000BBCA1;
 			remoteInfo = "Light Star";
 		};
+		465BF9882C7B9E51000BBCA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465BF9312C7B9A8E000BBCA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465BF9772C7B9E4F000BBCA1;
+			remoteInfo = "Watch Light Star Watch App";
+		};
+		465BF9922C7B9E51000BBCA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465BF9312C7B9A8E000BBCA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465BF9772C7B9E4F000BBCA1;
+			remoteInfo = "Watch Light Star Watch App";
+		};
+		465BF9992C7B9E51000BBCA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465BF9312C7B9A8E000BBCA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465BF9772C7B9E4F000BBCA1;
+			remoteInfo = "Watch Light Star Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		465BF99F2C7B9E51000BBCA1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				465BF99B2C7B9E51000BBCA1 /* Watch Light Star Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		465BF9392C7B9A8E000BBCA1 /* Light Star.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Light Star.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		465BF9492C7B9A90000BBCA1 /* Light StarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Light StarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		465BF9532C7B9A90000BBCA1 /* Light StarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Light StarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		465BF9782C7B9E4F000BBCA1 /* Watch Light Star Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch Light Star Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		465BF9872C7B9E51000BBCA1 /* Watch Light Star Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Watch Light Star Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		465BF9912C7B9E51000BBCA1 /* Watch Light Star Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Watch Light Star Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		465BF9AA2C7BA02D000BBCA1 /* Exceptions for "Light Star" folder in "Watch Light Star Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppConfig/Light_StarApp.swift,
+				Dashboard/View/LSDashboardView.swift,
+				Dashboard/ViewModel/LSDashboardViewModel.swift,
+				Settings/View/LSSettingsView.swift,
+				Tabbar/LSTabbarView.swift,
+			);
+			target = 465BF9772C7B9E4F000BBCA1 /* Watch Light Star Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		465BF93B2C7B9A8E000BBCA1 /* Light Star */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				465BF9AA2C7BA02D000BBCA1 /* Exceptions for "Light Star" folder in "Watch Light Star Watch App" target */,
+			);
 			path = "Light Star";
 			sourceTree = "<group>";
 		};
@@ -43,6 +102,21 @@
 		465BF9562C7B9A90000BBCA1 /* Light StarUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Light StarUITests";
+			sourceTree = "<group>";
+		};
+		465BF9792C7B9E4F000BBCA1 /* Watch Light Star Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Watch Light Star Watch App";
+			sourceTree = "<group>";
+		};
+		465BF98A2C7B9E51000BBCA1 /* Watch Light Star Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Watch Light Star Watch AppTests";
+			sourceTree = "<group>";
+		};
+		465BF9942C7B9E51000BBCA1 /* Watch Light Star Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Watch Light Star Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +143,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		465BF9752C7B9E4F000BBCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BF9842C7B9E51000BBCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BF98E2C7B9E51000BBCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +173,9 @@
 				465BF93B2C7B9A8E000BBCA1 /* Light Star */,
 				465BF94C2C7B9A90000BBCA1 /* Light StarTests */,
 				465BF9562C7B9A90000BBCA1 /* Light StarUITests */,
+				465BF9792C7B9E4F000BBCA1 /* Watch Light Star Watch App */,
+				465BF98A2C7B9E51000BBCA1 /* Watch Light Star Watch AppTests */,
+				465BF9942C7B9E51000BBCA1 /* Watch Light Star Watch AppUITests */,
 				465BF93A2C7B9A8E000BBCA1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +186,9 @@
 				465BF9392C7B9A8E000BBCA1 /* Light Star.app */,
 				465BF9492C7B9A90000BBCA1 /* Light StarTests.xctest */,
 				465BF9532C7B9A90000BBCA1 /* Light StarUITests.xctest */,
+				465BF9782C7B9E4F000BBCA1 /* Watch Light Star Watch App.app */,
+				465BF9872C7B9E51000BBCA1 /* Watch Light Star Watch AppTests.xctest */,
+				465BF9912C7B9E51000BBCA1 /* Watch Light Star Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,10 +203,12 @@
 				465BF9352C7B9A8E000BBCA1 /* Sources */,
 				465BF9362C7B9A8E000BBCA1 /* Frameworks */,
 				465BF9372C7B9A8E000BBCA1 /* Resources */,
+				465BF99F2C7B9E51000BBCA1 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				465BF99A2C7B9E51000BBCA1 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				465BF93B2C7B9A8E000BBCA1 /* Light Star */,
@@ -163,6 +266,74 @@
 			productReference = 465BF9532C7B9A90000BBCA1 /* Light StarUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		465BF9772C7B9E4F000BBCA1 /* Watch Light Star Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465BF99C2C7B9E51000BBCA1 /* Build configuration list for PBXNativeTarget "Watch Light Star Watch App" */;
+			buildPhases = (
+				465BF9742C7B9E4F000BBCA1 /* Sources */,
+				465BF9752C7B9E4F000BBCA1 /* Frameworks */,
+				465BF9762C7B9E4F000BBCA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				465BF9792C7B9E4F000BBCA1 /* Watch Light Star Watch App */,
+			);
+			name = "Watch Light Star Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Watch Light Star Watch App";
+			productReference = 465BF9782C7B9E4F000BBCA1 /* Watch Light Star Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		465BF9862C7B9E51000BBCA1 /* Watch Light Star Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465BF9A02C7B9E51000BBCA1 /* Build configuration list for PBXNativeTarget "Watch Light Star Watch AppTests" */;
+			buildPhases = (
+				465BF9832C7B9E51000BBCA1 /* Sources */,
+				465BF9842C7B9E51000BBCA1 /* Frameworks */,
+				465BF9852C7B9E51000BBCA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				465BF9892C7B9E51000BBCA1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				465BF98A2C7B9E51000BBCA1 /* Watch Light Star Watch AppTests */,
+			);
+			name = "Watch Light Star Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Watch Light Star Watch AppTests";
+			productReference = 465BF9872C7B9E51000BBCA1 /* Watch Light Star Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		465BF9902C7B9E51000BBCA1 /* Watch Light Star Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465BF9A32C7B9E51000BBCA1 /* Build configuration list for PBXNativeTarget "Watch Light Star Watch AppUITests" */;
+			buildPhases = (
+				465BF98D2C7B9E51000BBCA1 /* Sources */,
+				465BF98E2C7B9E51000BBCA1 /* Frameworks */,
+				465BF98F2C7B9E51000BBCA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				465BF9932C7B9E51000BBCA1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				465BF9942C7B9E51000BBCA1 /* Watch Light Star Watch AppUITests */,
+			);
+			name = "Watch Light Star Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Watch Light Star Watch AppUITests";
+			productReference = 465BF9912C7B9E51000BBCA1 /* Watch Light Star Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,8 +341,10 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = LS;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
+				ORGANIZATIONNAME = "OCloud Labs";
 				TargetAttributes = {
 					465BF9382C7B9A8E000BBCA1 = {
 						CreatedOnToolsVersion = 16.1;
@@ -183,6 +356,17 @@
 					465BF9522C7B9A90000BBCA1 = {
 						CreatedOnToolsVersion = 16.1;
 						TestTargetID = 465BF9382C7B9A8E000BBCA1;
+					};
+					465BF9772C7B9E4F000BBCA1 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					465BF9862C7B9E51000BBCA1 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 465BF9772C7B9E4F000BBCA1;
+					};
+					465BF9902C7B9E51000BBCA1 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 465BF9772C7B9E4F000BBCA1;
 					};
 				};
 			};
@@ -203,6 +387,9 @@
 				465BF9382C7B9A8E000BBCA1 /* Light Star */,
 				465BF9482C7B9A90000BBCA1 /* Light StarTests */,
 				465BF9522C7B9A90000BBCA1 /* Light StarUITests */,
+				465BF9772C7B9E4F000BBCA1 /* Watch Light Star Watch App */,
+				465BF9862C7B9E51000BBCA1 /* Watch Light Star Watch AppTests */,
+				465BF9902C7B9E51000BBCA1 /* Watch Light Star Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +410,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		465BF9512C7B9A90000BBCA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BF9762C7B9E4F000BBCA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BF9852C7B9E51000BBCA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BF98F2C7B9E51000BBCA1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +461,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		465BF9742C7B9E4F000BBCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BF9832C7B9E51000BBCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BF98D2C7B9E51000BBCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +494,21 @@
 			isa = PBXTargetDependency;
 			target = 465BF9382C7B9A8E000BBCA1 /* Light Star */;
 			targetProxy = 465BF9542C7B9A90000BBCA1 /* PBXContainerItemProxy */;
+		};
+		465BF9892C7B9E51000BBCA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465BF9772C7B9E4F000BBCA1 /* Watch Light Star Watch App */;
+			targetProxy = 465BF9882C7B9E51000BBCA1 /* PBXContainerItemProxy */;
+		};
+		465BF9932C7B9E51000BBCA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465BF9772C7B9E4F000BBCA1 /* Watch Light Star Watch App */;
+			targetProxy = 465BF9922C7B9E51000BBCA1 /* PBXContainerItemProxy */;
+		};
+		465BF99A2C7B9E51000BBCA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465BF9772C7B9E4F000BBCA1 /* Watch Light Star Watch App */;
+			targetProxy = 465BF9992C7B9E51000BBCA1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -518,6 +762,146 @@
 			};
 			name = Release;
 		};
+		465BF99D2C7B9E51000BBCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Watch Light Star Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4UZK2DCNHA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Watch Light Star";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "OCloudLabs.Light-Star";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "OCloudLabs.Light-Star.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		465BF99E2C7B9E51000BBCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Watch Light Star Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4UZK2DCNHA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Watch Light Star";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "OCloudLabs.Light-Star";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "OCloudLabs.Light-Star.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		465BF9A12C7B9E51000BBCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UZK2DCNHA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "OCloudLabs.Watch-Light-Star-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watch Light Star Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Watch Light Star Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		465BF9A22C7B9E51000BBCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UZK2DCNHA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "OCloudLabs.Watch-Light-Star-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watch Light Star Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Watch Light Star Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		465BF9A42C7B9E51000BBCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UZK2DCNHA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "OCloudLabs.Watch-Light-Star-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Watch Light Star Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		465BF9A52C7B9E51000BBCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UZK2DCNHA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "OCloudLabs.Watch-Light-Star-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Watch Light Star Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,6 +937,33 @@
 			buildConfigurations = (
 				465BF9642C7B9A90000BBCA1 /* Debug */,
 				465BF9652C7B9A90000BBCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465BF99C2C7B9E51000BBCA1 /* Build configuration list for PBXNativeTarget "Watch Light Star Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465BF99D2C7B9E51000BBCA1 /* Debug */,
+				465BF99E2C7B9E51000BBCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465BF9A02C7B9E51000BBCA1 /* Build configuration list for PBXNativeTarget "Watch Light Star Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465BF9A12C7B9E51000BBCA1 /* Debug */,
+				465BF9A22C7B9E51000BBCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465BF9A32C7B9E51000BBCA1 /* Build configuration list for PBXNativeTarget "Watch Light Star Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465BF9A42C7B9E51000BBCA1 /* Debug */,
+				465BF9A52C7B9E51000BBCA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
